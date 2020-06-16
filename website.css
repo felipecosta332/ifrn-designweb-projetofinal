@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+}
+#wrap {
+    height: 100vh;
+    width: 100vw;
+}
+.side {
+    background-color: darkgray;
+    float: left;
+    height: 122vh;
+    width: 15%;
+}
+#center {
+    float: left;
+    height: 100%;
+    width: 70%;
+}
+header {
+    background-color: blue;
+    height: 20%;
+    width: 100%;
+    position: relative;
+}
+#main {
+    position: relative;
+    height: 90vh;
+    width: 100%;
+}
+footer {
+    background-color: gray;
+    height: 12%;
+    width: 100%;
+}
+nav {
+    margin: 0 auto;
+    width: 30%;
+}
+ul {
+    position: absolute;
+    bottom: 0;
+    list-style-type: none;
+    padding: 0;
+}
+li {
+    float: left;
+}
+a {
+    background-color: lightblue;
+    display: block;
+    color: #004400;
+    text-decoration: none;
+    padding: 1vh;
+    margin-right: 2vw;
+}
+nav ul li a:hover {
+    background-color: lightgreen;
+    color: blue;
+}
+#main div {
+    position: absolute;
+    float: left;
+    margin: 0;
+    overflow: hidden;
+}
+#title {
+    padding: 0;
+    text-align: center;
+    height: 10vh;
+    width: 100%;
+}
+#headlineleft {
+    margin-right: 1vw;
+    top: 10vh;
+    left: 4vw;
+    height: 45vh;
+    width: 30vw;
+    text-align: justify;
+}
+#headlineleft img {
+    height: 38vh;
+    width: 30vw;
+}
+#headlineright {
+    margin-left: 1vw;
+    top: 10vh;
+    right: 4vw;
+    height: 45vh;
+    width: 30vw;
+    text-align: justify;
+    font-size: 0.9em;
+}
+#sidelineleft {
+    margin-right: 1vw;
+    top: 55vh;
+    left: 4vw;
+    height: 30vh;
+    width: 20vw;
+    text-align: center;
+}
+#sidelineleft img {
+    height: 20vh;
+    width: 20vw;
+}
+#sidelinecenter {
+    top: 55vh;
+    left: 25vw;
+    height: 30vh;
+    width: 20vw;
+    text-align: center;
+}
+#sidelinecenter img {
+    height: 20vh;
+    width: 20vw;
+}
+#sidelineright {
+    top: 55vh;
+    right: 4vw;
+    height: 30vh;
+    width: 20vw;
+    text-align: center;
+}
+#sidelineright img {
+    height: 20vh;
+    width: 20vw;
+}
+#socialmedia {
+    top: 85vh;
+    height: 5vh;
+    width: 70vw;
+}
